@@ -14,6 +14,6 @@ Project from your cources [GitHub](https://github.com/rolling-scopes-school/task
 Gymnasium №37, Minsk, advanced level of English and mathematics - graduate
 BNTU, Minsk, advanced level of physics and chemistry - student
 **process engineer**
-Сcodecademy(html+css), htmlacademy(all free cources), JS book(from "Intodurcion" to "Data types"
+Сodecademy(html+css), htmlacademy(all free cources), JS book(from "Intodurcion" to "Data types"
 # English 
 I studied English at a high level at school (A2)
