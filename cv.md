@@ -9,7 +9,7 @@ Basics of C++, basics of JS, git.
 # Code examples 
 [GitHub:katsu223](https://github.com/katsu223/lambda-restaurant)
 # Experience
-Project from your cources [GitHub](https://github.com/rolling-scopes-school/tasks/blob/2018-Q3/tasks/markup-1.md); [Deploy link])(http://lambda-restaurant.surge.sh/); [Source code](https://github.com/katsu223/lambda-restaurant)
+Project from your cources [GitHub](https://github.com/rolling-scopes-school/tasks/blob/2018-Q3/tasks/markup-1.md); [Deploy link](http://lambda-restaurant.surge.sh/); [Source code](https://github.com/katsu223/lambda-restaurant)
 # Education 
 Gymnasium №37, Minsk, advanced level of English and mathematics - graduate
 BNTU, Minsk, advanced level of physics and chemistry - student
