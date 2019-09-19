@@ -63,10 +63,16 @@ div {
 
 .avatar {
   margin-top: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   width: 100px;
 
-  border-radius: 50%;
+  border-radius: 100%;
+}
+
+.career {
+  font-family: 'Comfortaa', cursive;
+
+  margin-bottom: 70px;
 }
 
 .icon {
@@ -117,7 +123,6 @@ div {
 .item {
   margin-bottom: 20px;
 }
-
 
 .container {
   display: flex;
