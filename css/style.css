@@ -25,9 +25,16 @@
     margin-left: 70px;
   }
 
+  .column:first-child .section-title {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width:480px) {
+  .section-title {
+    text-align: center;
+  }
+
   .container {
     display: block;
   }
@@ -122,10 +129,6 @@ div {
 .column:first-child {
   flex-basis: 50%;
   margin-left: 0px;
-}
-
-.column:first-child .section-title {
-  text-align: center;
 }
 
 .section-title {
