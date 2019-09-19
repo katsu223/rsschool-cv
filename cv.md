@@ -3,7 +3,7 @@
 * Discord: @wh_cfg#9411; e-mail: [ten.edik220302@gmail.com](mailto:ten.edik220302@gmail.com)
 * [Telegram@wh_cfg](https://telegram.me/wh_cfg)
 # Summary
-My goal is to become a good frond-end developer and find a good team to gain new experience. I have a great desire to study  new technologies.
+My goal is to become a good front-end developer and find a good team to gain new experience. I have a great desire to study  new technologies.
 # Skills 
 Basics of C++, basics of JS, git.
 # Code examples 
