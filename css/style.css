@@ -17,6 +17,10 @@
     margin: 50px auto;
   }
 
+  .profile-section .section-title {
+    margin-top: 0;
+  }
+
   .column {
     margin-left: 70px;
   }
@@ -30,6 +34,10 @@
 
   .wrapper {
     margin: 0;
+  }
+
+  .profile-section .section-title {
+    margin-top: 50px;
   }
   
   .column {
@@ -134,8 +142,7 @@ div {
   border-bottom: 1px solid #999
 }
 
-.contact-section .section-title,
-.profile-section .section-title {
+.contact-section .section-title {
   margin-top: 0;
 }
 
