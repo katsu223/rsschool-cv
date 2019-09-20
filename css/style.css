@@ -66,7 +66,7 @@ body {
 }
 
 .column:first-child {
-  flex-basis: 50%;
+  flex-basis: 65%;
   margin-left: 0px;
 }
 
