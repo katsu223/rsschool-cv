@@ -1,13 +1,3 @@
-@font-face {
-  font-family: "Geometos";
-  src: url("../assets/fonts/GeometosLight.otf");
-}
-
-@font-face {
-  font-family: "GeometosBold";
-  src: url("../fonts/GeometosBold.otf");
-}
-
 @media screen {
   .container {
     display: flex;
@@ -91,7 +81,7 @@ div {
 }
 
 .name {
-  font-family: "Geometos", "Arial", sans-serif;
+  font-family: 'Quicksand', "Arial", sans-serif;
   font-size: 70px;
   font-weight: 100;
   text-transform: uppercase;
@@ -136,9 +126,9 @@ div {
   margin-top: 50px;
   margin-bottom: 20px;
 
-  font-family: "GeometosBold", "Arial", sans-serif;
-  font-weight: 800;
-  font-size: 15px;
+  font-family: 'Quicksand', "Arial", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
   text-transform: uppercase;
   letter-spacing: 0.2em;
 
