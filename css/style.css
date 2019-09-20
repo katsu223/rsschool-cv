@@ -2,14 +2,6 @@
   .container {
     display: flex;
   }
-  
-  .wrapper {
-    margin: 50px auto;
-  }
-
-  .profile-section .section-title {
-    margin-top: 0;
-  }
 
   .column {
     margin-left: 70px;
@@ -18,27 +10,35 @@
   .column:first-child .section-title {
     text-align: center;
   }
-}
 
-@media screen and (max-width:480px) {
-  .section-title {
-    text-align: center;
-  }
-
-  .container {
-    display: block;
+  .profile-section .section-title {
+    margin-top: 0;
   }
 
   .wrapper {
-    margin: 0;
+    margin: 50px auto;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .container {
+    display: block;
+  }
+  
+  .column {
+    margin-left: 0px;
   }
 
   .profile-section .section-title {
     margin-top: 50px;
   }
-  
-  .column {
-    margin-left: 0px;
+
+  .section-title {
+    text-align: center;
+  }
+
+  .wrapper {
+    margin: 0;
   }
 }
 
@@ -48,52 +48,6 @@ body, html, ul, ol, li, p, h1, h2, h3, h4 {
 
 body {
   font-family: 'Lato', "Arial", sans-serif;
-}
-
-div {
-  box-sizing: border-box;
-}
-
-.link {
-  transition: .3s color ease;
-  color: rgb(0, 0, 0);
-}
-
-.link:hover {
-  color: rgb(141, 141, 141);
-  text-decoration: none;
-}
-
-.contact-list {
-  list-style: none;
-}
-
-.text {
-  padding-left: 30px;
-}
-
-.wrapper {
-  padding: 70px;
-  max-width: 1024px;
-  min-width: 515px;
-
-  box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2);
-}
-
-.name {
-  font-family: 'Quicksand', "Arial", sans-serif;
-  font-size: 70px;
-  font-weight: 100;
-  text-transform: uppercase;
-
-  color: #3f3f3f;
-  text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.1);
-}
-
-.header-section {
-  text-align: center;
-
-  margin-bottom: 70px;
 }
 
 .avatar {
@@ -108,17 +62,67 @@ div {
   font-family: 'Comfortaa', cursive;
 }
 
-.icon {
-  margin-right: 10px;
+.column:first-child {
+  flex-basis: 50%;
+  margin-left: 0px;
+}
+
+.contact-list {
+  list-style: none;
+}
+
+.contact-section .section-title {
+  margin-top: 0;
+}
+
+div {
+  box-sizing: border-box;
 }
 
 .fa-mobile-alt {
   padding-left: 3px;
 }
 
-.column:first-child {
-  flex-basis: 50%;
-  margin-left: 0px;
+.header-section {
+  text-align: center;
+
+  margin-bottom: 70px;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.item {
+  margin-bottom: 20px;
+}
+
+.link {
+  transition: .3s color ease;
+  color: rgb(0, 0, 0);
+}
+
+.link:hover {
+  color: rgb(141, 141, 141);
+  text-decoration: none;
+}
+
+.list {
+  padding-left: 30px;
+}
+
+.name {
+  font-family: 'Quicksand', "Arial", sans-serif;
+  font-size: 70px;
+  font-weight: 100;
+  text-transform: uppercase;
+
+  color: #3f3f3f;
+  text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.1);
+}
+
+.markup {
+  margin-bottom: 20px;
 }
 
 .section-title {
@@ -135,14 +139,10 @@ div {
   border-bottom: 1px solid #999
 }
 
-.contact-section .section-title {
-  margin-top: 0;
-}
+.wrapper {
+  padding: 70px;
+  max-width: 1024px;
+  min-width: 515px;
 
-.item {
-  margin-bottom: 20px;
-}
-
-.markup {
-  margin-bottom: 20px;
+  box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2);
 }
